@@ -17,7 +17,7 @@ After the Installation of Ubuntu execute the script in the Ubuntu Live Environme
 ( If you use a USB-Stick with [Ventoy](https://github.com/ventoy), you can Inject the script file in the Ubuntu Live Enviroment -> https://www.ventoy.net/en/doc_live_injection.html )
 
 ## [Optional] Ventoy Liveinjection
-The partition-vX.tar.gz file is ready for use with ventoy. 
+The partition-vX.tar.gz file is ready for use with ventoy. (The File will appear in /home [Thats because every Distribution has it's own username])
 Just create on the ISO Partition a directory ventoy and create a File named ventoy.json with a content like this
 ```
 {
