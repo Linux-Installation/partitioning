@@ -15,8 +15,8 @@ sudo mkdir -p /media/programs
 sudo mount /dev/${vg}/programs /media/programs
 sudo mkdir -p /media/root/programs
 sudo mkdir /media/programs/snap
-sudo mv /media/root/snap/* /media/programs/snap/*
+sudo mv /media/root/snap/* /media/programs/snap/
 sudo su -c 'echo "/dev/'$vg'/home /home ext4 defaults 0   2" >> /media/root/etc/fstab'
 sudo su -c 'echo "/dev/'$vg'/programs /programs ext4 defaults 0   1" >> /media/root/etc/fstab'
-sudo su -c '/programs/snap /snap   none    bind    0   0" >> /media/root/etc/fstab'
-sudo ln -s /media/programs/flatpak /media/root/var/lib/flatpak
+sudo su -c 'echo "/programs/snap /snap   none    bind    0   0" >> /media/root/etc/fstab'
+sudo ln -s /media/root/var/lib/flatpak /media/programs/flatpak
