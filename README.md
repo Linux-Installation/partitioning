@@ -16,7 +16,7 @@ When you want to use this script you should choose LVM while Installing Ubuntu.
 After the Installation of Ubuntu execute the script in the Ubuntu Live Environment
 ( If you use a USB-Stick with [Ventoy](https://github.com/ventoy), you can Inject the script file in the Ubuntu Live Enviroment -> https://www.ventoy.net/en/doc_live_injection.html )
 
-## Ventoy Liveinjection
+## [Optional] Ventoy Liveinjection
 The partition-vX.tar.gz file is ready for use with ventoy. 
 Just create on the ISO Partition a directory ventoy and create a File named ventoy.json with a content like this
 ```
