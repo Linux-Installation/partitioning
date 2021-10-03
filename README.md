@@ -17,5 +17,6 @@ After the Installation of Ubuntu execute the script in the Ubuntu Live Environme
 ( If you use a USB-Stick with [Ventoy](https://github.com/ventoy), you can Inject the script file in the Ubuntu Live Enviroment -> https://www.ventoy.net/en/doc_live_injection.html )
 
 ## TODO
-- [ ] #1
-- [ ] #2
+- [ ] [Make root size customizable](https://github.com/Ubuntu-Installation/partitioning/issues/1)
+- [ ] [Make programs size customizable](https://github.com/Ubuntu-Installation/partitioning/issues/2)
+
