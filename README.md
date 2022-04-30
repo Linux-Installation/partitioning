@@ -16,10 +16,11 @@ But i want to split some things like the home directory for easier changes after
 If you already have created LVM partitions e.g. from Ubuntu 20.04, then you can skip until 4.
 In the Ubuntu Live Environment:
 <ol>
-<li>create 2 Partitions without a file system</li>
+<li>create 3 Partitions without a file system</li>
     <ul>
-        <li>One should be 1GB Big (efi Partition)</li>
-        <li>The other one should be the free space which is left.</li>
+        <li>1GB Big (efi Partition)</li>
+        <li> 2 MB BIOS Grub Partition (not needed if you only use EFI)</li>
+        <li>The last one should be the free space which is left.</li>
     </ul>
 </li>
 <li>Edit script 22.04-live-1.sh and insert the variable partition. Put in the location of the in 1.2 created partition. (biggest one)</li> <li>execute 22.04-live-1.sh (This will create 4 LV root, home, programs, swap)</li>   
