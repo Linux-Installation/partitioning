@@ -8,7 +8,7 @@ But i want to split some things like the home directory for easier changes after
 | Amount of Space  | Purpose |
 | ---------------  | ------- |
 | 30 GB            | / (root)    |
-| 10 GB            | /programs (For flatpak and snap)    |
+| 15 GB            | /programs (For flatpak and snap)    |
 | 1  GB            | swap   |
 | other free space | /home    |
 
