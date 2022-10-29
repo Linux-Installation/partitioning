@@ -11,5 +11,5 @@ sudo mv /media/root/snap/* /media/programs/snap/
 sudo mv /media/root/var/lib/flatpak /media/programs/
 sudo mv /media/root/var/lib/snapd /media/programs/
 sudo ln -s /programs/flatpak /media/root/var/lib/flatpak
-sudo ln -s /programs/snapd /media/root/var/lib/snapd
 sudo su -c 'echo "/programs/snap /snap   none    bind    0   0" >> /media/root/etc/fstab'
+sudo su -c 'echo "/programs/snapd /var/lib/snapd none    bind    0   0" >> /media/root/etc/fstab'
