@@ -32,7 +32,7 @@ In the Ubuntu Live Environment:
         <li>choose home as Mount Point /home</li>
     </ul>
 </li>
-<li>After Installation execute 22.04-live-1.sh (This will change that flatpak and snap make use of the programs partition)</li>
+<li>After Installation execute 22.04-live-2.sh (This will change that flatpak and snap make use of the programs partition)</li>
 </ol>
 
 ( If you use a USB-Stick with [Ventoy](https://github.com/ventoy), you can Inject the script file in the Ubuntu Live Enviroment -> https://www.ventoy.net/en/doc_live_injection.html )
