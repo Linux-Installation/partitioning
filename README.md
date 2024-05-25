@@ -7,10 +7,10 @@ But i want to split some things like the home directory for easier changes after
 ## What is the partitioning
 | Amount of Space  | Purpose |
 | ---------------  | ------- |
-| 30 GB            | / (root)    |
-| 15 GB            | /programs (For flatpak and snap)    |
+| 33 GB            | / (root)    |
+| 33 GB            | /programs (For flatpak and snap)    |
 | 1  GB            | swap   |
-| other free space | /home    |
+| other 80% of free space | /home    |
 
 ## How to Use
 If you already have created LVM partitions e.g. from Ubuntu 20.04, then you can skip until 4.
