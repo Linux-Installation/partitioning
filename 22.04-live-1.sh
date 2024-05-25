@@ -1,5 +1,5 @@
 #!/bin/bash
-vg="ubuntu-mate"
+vg="linux"
 partition="/dev/sda2"
 sudo pvcreate $partition
 sudo vgcreate $vg $partition
