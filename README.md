@@ -7,8 +7,8 @@ But i want to split some things like the home directory for easier changes after
 ## What is the partitioning
 | Amount of Space  | Purpose |
 | ---------------  | ------- |
-| 40 GB            | / (root)    |
-| 20 GB            | /programs (For flatpak and snap)    |
+| 33 GB            | / (root)    |
+| 33 GB            | /programs (For flatpak and snap)    |
 | 1  GB            | swap   |
 | other 80% of free space | /home    |
 
