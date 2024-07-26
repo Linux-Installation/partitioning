@@ -1,4 +1,7 @@
 # Ubuntu-Installation - Partitioning
+## Supported Distributions
+This script is made for Ubuntu derivatives, but should work on all Linux Distribution which supports lvm and ext4.
+
 ## Why
 This shell script is for partitioning of LVM Installations.
 The Ubuntu Installer didn't allow self-partitioning of LVM Installations.
