@@ -1,10 +1,10 @@
-# Ubuntu-Installation - Partitioning
+# Linux-Installation - Partitioning
 ## Supported Distributions
 This script is made for Ubuntu derivatives, but should work on all Linux Distribution which supports lvm and ext4.
 
 ## Why
 This shell script is for partitioning of LVM Installations.
-The Ubuntu Installer didn't allow self-partitioning of LVM Installations.
+The Linux Mint and Ubuntu Installer didn't allow self-partitioning of LVM Installations.
 But i want to split some things like the home directory for easier changes afterwards.
 
 ## What is the partitioning
@@ -17,7 +17,7 @@ But i want to split some things like the home directory for easier changes after
 
 ## How to Use
 If you already have created LVM partitions e.g. from Ubuntu 20.04, then you can skip until 4.
-In the Ubuntu Live Environment:
+In the Linux Live Environment:
 <ol>
 <li>create 3 Partitions without a file system</li>
     <ul>
@@ -57,5 +57,5 @@ replace nameofyouriso with the name of your iso file and partition-vX with your 
 Copy your iso and the partition-vX.tar.gz to the iso Partition.
 
 ## TODO
-- [ ] [Make root size customizable](https://github.com/Ubuntu-Installation/partitioning/issues/1)
-- [ ] [Make programs size customizable](https://github.com/Ubuntu-Installation/partitioning/issues/2)
+- [ ] [Make root size customizable](https://github.com/Linux-Installation/partitioning/issues/1)
+- [ ] [Make programs size customizable](https://github.com/Linux-Installation/partitioning/issues/2)
