@@ -5,7 +5,7 @@ sudo mkdir -p /media/root
 sudo mount /dev/${vg}/root /media/root
 sudo mkdir -p /media/programs
 sudo mount /dev/${vg}/programs /media/programs
-sudo mkdir -p /media/root/programs/
+sudo mkdir -p /media/root/programs/var/lib/
 sudo mv /media/root/var/lib/flatpak /media/programs/var/lib/
 sudo ln -s /programs/var/lib/flatpak /media/root/var/lib/flatpak
 if [ -f "/usr/bin/snap" ] 
